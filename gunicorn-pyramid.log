@@ -1,0 +1,24 @@
+% gunicorn -w 9 -b 127.0.0.1:8000 app:application
+2013-05-06 22:19:24 [12096] [INFO] Starting gunicorn 0.17.4
+2013-05-06 22:19:24 [12096] [INFO] Listening at: http://127.0.0.1:8000 (12096)
+2013-05-06 22:19:24 [12096] [INFO] Using worker: sync
+2013-05-06 22:19:24 [12101] [INFO] Booting worker with pid: 12101
+2013-05-06 22:19:25 [12106] [INFO] Booting worker with pid: 12106
+2013-05-06 22:19:25 [12107] [INFO] Booting worker with pid: 12107
+2013-05-06 22:19:25 [12116] [INFO] Booting worker with pid: 12116
+2013-05-06 22:19:25 [12121] [INFO] Booting worker with pid: 12121
+2013-05-06 22:19:25 [12126] [INFO] Booting worker with pid: 12126
+2013-05-06 22:19:25 [12131] [INFO] Booting worker with pid: 12131
+2013-05-06 22:19:25 [12135] [INFO] Booting worker with pid: 12135
+2013-05-06 22:19:25 [12141] [INFO] Booting worker with pid: 12141
+^C2013-05-06 22:47:23 [12135] [INFO] Worker exiting (pid: 12135)
+2013-05-06 22:47:23 [12107] [INFO] Worker exiting (pid: 12107)
+2013-05-06 22:47:23 [12121] [INFO] Worker exiting (pid: 12121)
+2013-05-06 22:47:23 [12141] [INFO] Worker exiting (pid: 12141)
+2013-05-06 22:47:23 [12106] [INFO] Worker exiting (pid: 12106)
+2013-05-06 22:47:23 [12131] [INFO] Worker exiting (pid: 12131)
+2013-05-06 22:47:23 [12096] [INFO] Handling signal: int
+2013-05-06 22:47:23 [12101] [INFO] Worker exiting (pid: 12101)
+2013-05-06 22:47:23 [12116] [INFO] Worker exiting (pid: 12116)
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2013-05-06 22:47:23 [12096] [INFO] Shutting down: Master

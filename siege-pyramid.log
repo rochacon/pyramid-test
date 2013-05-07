@@ -1,0 +1,22 @@
+% siege -c 1000 -r 1000 http://127.0.0.1:8000/health
+** SIEGE 2.70
+** Preparing 1000 concurrent users for battle.
+The server is now under siege..      done.
+Transactions:            1000000 hits
+Availability:             100.00 %
+Elapsed time:             559.11 secs
+Data transferred:           9.54 MB
+Response time:              0.00 secs
+Transaction rate:        1788.56 trans/sec
+Throughput:             0.02 MB/sec
+Concurrency:                7.71
+Successful transactions:     1000000
+Failed transactions:               0
+Longest transaction:            3.19
+Shortest transaction:           0.00
+ 
+ FILE: /var/siege.log
+ You can disable this annoying message by editing
+ the .siegerc file in your home directory; change
+ the directive 'show-logfile' to false.
+ [error] unable to create log file: Permission denied
