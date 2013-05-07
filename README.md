@@ -1,0 +1,1 @@
+This is a simple test with Pyramid, just to see it's capabilities.
